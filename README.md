@@ -2,8 +2,8 @@
 
 Landing con dos propuestas de flujos agénticos para **Soulless Catcher**, una startup creada por estudiantes del IFTS 16. TP3 de Frontend, Desarrollo de Sistemas Web, IFTS 29, 2026.
 
-🔗 **Landing publicada:** https://tp3-soulless-catcher.vercel.app _(completar con el enlace final de Vercel)_
-📦 **Repositorio:** https://github.com/julietanatbravo/tp3-soulless-catcher
+🔗 **Landing publicada:** https://frontend-tp3-grupo36.vercel.app
+📦 **Repositorio:** https://github.com/julietanatbravo/frontend-tp3-grupo36
 
 ![Portada de la landing](docs/capturas/portada.png)
 
@@ -107,8 +107,8 @@ Las decisiones fueron mías: qué agrega cada propuesta más allá de la regla, 
 Requisitos: Node.js 20 o superior y npm.
 
 ```bash
-git clone https://github.com/julietanatbravo/tp3-soulless-catcher.git
-cd tp3-soulless-catcher
+git clone https://github.com/julietanatbravo/frontend-tp3-grupo36.git
+cd frontend-tp3-grupo36
 npm install
 npm run dev
 ```
