@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+/* Tipografía de las etiquetas, servida desde /public/fonts (licencia OFL) */
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: url("/fonts/IBMPlexMono-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --font-display: Verdana, Geneva, "DejaVu Sans", "Bitstream Vera Sans", Tahoma, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  --color-fondo: #0a0a0c;
+  --color-superficie: #141418;
+  --color-superficie-2: #1b1b21;
+  --color-borde: #2a2a32;
+  --color-texto: #ececf0;
+  --color-suave: #a3a3ad;
+  --color-espectro: #a8e6ff;
+  --color-grupo: #f3c46b;
+  --color-humano: #c9a7ff;
+  --color-si: #7fe0a8;
+  --color-no: #ff94a6;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { transition: none !important; animation: none !important; }
+}
+
+body {
+  background: var(--color-fondo);
+  color: var(--color-texto);
+  font-family: var(--font-sans);
+}
+
+::selection { background: var(--color-espectro); color: var(--color-fondo); }
+
+:focus-visible {
+  outline: 2px solid var(--color-espectro);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+details > summary { list-style: none; }
+details > summary::-webkit-details-marker { display: none; }
+details[open] .chevron { transform: rotate(90deg); }
