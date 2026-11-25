@@ -98,9 +98,9 @@ Las decisiones fueron mías: qué agrega cada propuesta más allá de la regla, 
 | 1 | Encargo inicial: la consigna del TP3, la asignación del grupo 36 y React + Vite + Tailwind | — | Se generó la estructura, el contenido, los dos diagramas y los desplegables |
 | 2 | Revisión de las capturas de los diagramas | Las líneas de la bifurcación no caían sobre las columnas SÍ y NO, y los nodos de inicio decían «Inicio: Inicio:» | Se pidió alinear las líneas con el centro de cada columna y quitar el prefijo repetido. Ahora el recorrido se lee sin saltos |
 | 3 | Revisión del flujo R3 contra la sentencia | El inicio suponía que siempre había enlace, pero el caso «no hay enlace» también lleva al camino NO | Se cambió el inicio a «el usuario sube un material» y se sumó el paso que revisa si hay enlace |
-| 4 | Revisión del diseño | Las tipografías de los títulos se parecían demasiado al diseño de la consigna | Se pidió cambiarlas y no seguir al pie de la letra la estética de la consigna. Primero se probó Instrument Serif, una serif editorial. Después pedí una tipografía similar a Verdana, más clara y directa: los títulos quedaron en Verdana y las etiquetas en IBM Plex Mono |
+| 4 | Revisión del diseño | Las tipografías de los títulos se parecían demasiado al diseño de la consigna | Se pidió cambiarlas y no seguir al pie de la letra la estética de la consigna. Primero se probó Instrument Serif, una serif editorial, para los títulos, e IBM Plex Mono para las etiquetas |
 | 5 | Revisión del flujo R4 | Cuando hay indicios, el informe no decía de dónde salía el material ni quién lo había difundido | Se pidió que el agente rastree la imagen en la web y avise, por ejemplo, si la difundió un portal. Se sumó un paso de búsqueda inversa, marcado como decisión del grupo, que informa la primera aparición y los portales. Se cuidó que el rastro se presente como dato y no como prueba de que es IA, para no contradecir la regla |
-| 6 | _Completar con mi revisión en el navegador_ | | |
+| 6 | Revisión en el navegador, en desktop | Con la serif, los títulos largos y las sentencias citadas en cursiva costaban de leer en pantalla | Se pidió una tipografía similar a Verdana para mejorar la legibilidad. Los títulos pasaron a Verdana en negrita, con DejaVu Sans y Tahoma de respaldo; las sentencias dejaron la cursiva; se ajustaron los tamaños y se ensanchó el título principal para que ocupe menos líneas |
 
 ## Cómo correrlo
 
@@ -123,9 +123,9 @@ npm run dev
 
 Probado en desktop, desde una ventana sin sesión:
 
-- [ ] El repositorio abre sin iniciar sesión
-- [ ] La landing abre sin iniciar sesión y muestra la versión final
-- [ ] El logo se ve completo y los dos diagramas se leen bien
-- [ ] Los desplegables se abren y se cierran con clic y con Tab + Enter
-- [ ] En cada flujo, los dos casos (se cumple / no se cumple) resaltan el camino correcto
-- [ ] No hay desbordes horizontales a 1366 px y a 1920 px de ancho
+- [x] El repositorio abre sin iniciar sesión
+- [x] La landing abre sin iniciar sesión y muestra la versión final
+- [x] El logo se ve completo y los dos diagramas se leen bien
+- [x] Los desplegables se abren y se cierran con clic y con Tab + Enter
+- [x] En cada flujo, los dos casos (se cumple / no se cumple) resaltan el camino correcto
+- [x] No hay desbordes horizontales a 1366 px y a 1920 px de ancho
